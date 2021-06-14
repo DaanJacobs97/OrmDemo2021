@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrmDemo.Business.EF6.Services.Interfaces\OrmDemo.Business.EF6.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\OrmDemo.Data.EF6.Contexts\OrmDemo.Data.EF6.Contexts.csproj" />
+    <ProjectReference Include="..\OrmDemo.Data.EF6.Entities\OrmDemo.Data.EF6.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

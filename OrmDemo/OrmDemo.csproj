@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrmDemo.Business.Dapper.Services\OrmDemo.Business.Dapper.Services.csproj" />
+    <ProjectReference Include="..\OrmDemo.Business.EF6.Services\OrmDemo.Business.EF6.Services.csproj" />
+    <ProjectReference Include="..\OrmDemo.Business.EFCore.Services\OrmDemo.Business.EFCore.Services.csproj" />
+    <ProjectReference Include="..\OrmDemo.Business.NHibernate.Services\OrmDemo.Business.NHibernate.Services.csproj" />
+    <ProjectReference Include="..\OrmDemo.Data.EFCore.Contexts\OrmDemo.Data.EFCore.Contexts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
